@@ -52,6 +52,7 @@ class Program
             else if (userChoice == "2")
             {
                 Console.WriteLine("You selected: Display the journal");
+                myJournal.Display();
             }
             else if (userChoice == "3")
             {
